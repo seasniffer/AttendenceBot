@@ -9,5 +9,7 @@ namespace AttendenceBot.Model
         public ulong ServerId { get; set; }
 
         public string DiscordToken { get; set; }
+
+        public ulong ChannelId { get; set; }
     }
 }
